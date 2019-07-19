@@ -28,16 +28,11 @@ display=()=>{
         count++;
         
     }
-    
-
 }
 
     $('#events').on('click', '#remove', function(e){
         $(this).closest('tr').remove();
      });
-
-     
-
 
 let button=document.getElementById("send");
 
