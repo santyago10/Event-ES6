@@ -1,0 +1,38 @@
+.form1{
+    width: 350px;
+    height:150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    padding:0px;
+   
+
+}
+
+.form1-input{
+    margin:5px;
+    background-color:#f2f1f0;
+    border:1px solid #e3deda
+
+}
+.rightDiv{
+     
+    display: inline-block;
+}
+.leftDiv{
+    
+    display: inline-block;
+}
+.addButton{
+    float:right;
+    margin-right:25px;
+    margin-top:10px;
+    background-color:#ff720d;
+    border:1px solid #ff720d;
+    font-family: Arial, Helvetica, sans-serif;
+    width:100px;
+    color:white;
+}
+.form1-input{
+    padding:0px;
+    margin-left:0px;
+}

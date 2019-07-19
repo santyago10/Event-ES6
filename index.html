@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Мероприятия</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <script src="jquery-3.3.1.min.js"></script>
+
+    </head>
+    <body>
+        <form class="form1" name="eventForm">
+            <h3>Добавить мероприятие</h2>
+            <div class="leftDiv">
+            <label class="form1-label">Название</label></br>
+            <input class="form1-input" id="name" name="name" type="text"/></br>
+            <label class="form1-label">Время начала</label></br>
+            <input class="form1-input" id="beginning" name="beginning" type="time"/>
+            </div>
+            
+            <div class="rightDiv">
+            <label class="form1-label">Дата</label></br>
+            <input class="form1-input" id="date" name="date" type="date"/></br>
+            <label class="form1-label">Время окончания</label></br>
+            <input class="form1-input" id="ending" name="ending" type="time"/>
+            </div></br>
+            
+            <input type="button" id="send" class="addButton" onclick="addEvent()" onmouseout="display()" value="Добавить"/>
+        </form>
+
+        <input type="button" id="refresh" onclick="display()" value="Обновить"/>
+            <table id="events">
+                <caption>Мероприятия</caption>
+                <thead>
+                    <tr>
+                       <th>Мероприятие</th><th>Дата</th><th>Время начала</th><th>Время окончания</th>
+                    </tr>
+                </thead>
+
+            </table>
+
+       
+
+        <script src="myScript.js"></script>
+
+    </body>
+</html>
